@@ -1,5 +1,7 @@
 const categoriesList = document.getElementById('categories');
+
 const categories = categoriesList.querySelectorAll('li.item');
+
 console.log(`Number of categories: ${categories.length}\n`);
 
 

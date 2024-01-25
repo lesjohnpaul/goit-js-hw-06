@@ -22,3 +22,29 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+/* #validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+} */
+
+
+.boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  /* border: 1px solid #444444; */
+  margin: 2px;
+  /* Add margin between boxes */
+}
